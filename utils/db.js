@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const user = "dhx101";
 const password = "YvZBMf0KKQLq1kHz";
-const DB_URL = `mongodb+srv://${user}:${password}@cluster0.mmv93o5.mongodb.net/?retryWrites=true&w=majority`;
+const DB_URL = `mongodb+srv://${user}:${password}@cluster0.mmv93o5.mongodb.net/personas`;
 
 const conecto = async () => {
 	try {
@@ -14,3 +14,4 @@ const conecto = async () => {
 };
 
 module.exports = { conecto };
+
